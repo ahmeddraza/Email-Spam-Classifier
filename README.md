@@ -12,7 +12,7 @@
 ---
 
 ## 🌐 Live Demo
-### [👉 Click Here to Access Live Application 👈](https://spam-ai-31fab0a8fd2a.herokuapp.com/predict)
+### [👉 Click Here to Access Live Application 👈](https://spam-ai-31fab0a8fd2a.herokuapp.com)
 **🎯 Try it now - Fully deployed and ready to use!**
 
 ---
@@ -52,7 +52,7 @@ The model was trained on a comprehensive dataset of **83,000+** emails, achievin
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/spam-ai.git
+git clone https://github.com/ahmeddraza/Email-Spam-Classifier.git
 cd spam-ai
 ```
 
@@ -81,5 +81,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 <p align="center">
-  Built with ❤️ by <a href="https://github.com/sukku">Ahmed n Raza</a>
+  Built with ❤️ by <a href="https://github.com/ahmeddraza/Email-Spam-Classifier.git">Ahmed Raza</a>
 </p>

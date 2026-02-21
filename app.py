@@ -5,6 +5,7 @@ import re
 import nltk
 from nltk.corpus import stopwords
 from gensim.models import Word2Vec
+from textblob import TextBlob
 
 # Download necessary NLTK data
 nltk.download('stopwords')
@@ -17,6 +18,9 @@ model = pickle.load(open('model.pkl', 'rb'))
 word2vec_model = Word2Vec.load('word2vec_model.bin')
 
 def text_transform(text):
+    # Spelling Correction
+    text = str(TextBlob(text).correct())
+    
     text = text.lower()
     text = re.sub(r'[^a-zA-Z0-9]', ' ', text)
     text = text.split()

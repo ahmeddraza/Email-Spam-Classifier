@@ -1,0 +1,8 @@
+flask
+numpy
+nltk
+gensim
+textblob
+pandas
+scikit-learn
+gunicorn
